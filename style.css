@@ -1,0 +1,172 @@
+:root {
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #C00000;
+  padding: 15px 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#login {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+dialog {
+  margin-bottom: auto;
+  margin-top: 125px;
+  width: 270px;
+  height: 300px;
+  border-radius: 15px;
+  border: none !important;
+}
+
+#new-book { 
+  border: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+}
+
+#submit {
+  margin-top: 20px;
+  width: 140px;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 45px;
+  background-color: #C00000;
+  color: #FFFFFF;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.input-bar {
+  height: 20px;
+  width: 220px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #FFFFFF;
+}
+
+#read {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+  font-size: 1.11rem;
+  align-items: center;
+}
+
+#read-checkbox {
+  cursor: pointer;
+}
+
+#new-book-btn {
+  margin-bottom: 50px;
+  width: 140px;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 45px;
+  background-color: #C00000;
+  color: #FFFFFF;
+}
+
+.card {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+  border-radius: 40px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;  
+  width: 270px;
+  height: 330px;
+  padding: 20px;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.2rem;
+}
+
+.remove-book {
+  width: 140px;;
+  height: 45px; 
+  background-color: #C00000;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.remove-book:active {
+  transform: scale(0.98);
+}
+
+.remove-book:hover {
+  background-color: #C00000;
+}
+
+#read-btn {
+  width: 140px;;
+  height: 45px; 
+  background-color: #C00000;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#read-btn:hover {
+  background-color: #C00000;
+}
